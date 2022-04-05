@@ -22,4 +22,4 @@ def say_hi():
 def add(x=1, y=1):
 	print(x + y)
 
-add()
+add(5)
