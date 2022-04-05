@@ -31,5 +31,4 @@ def average(numbers):
 	return sum(numbers) / len(numbers)
 	
 
-a = average([1, 2, 3])
-print(a)
+print(average([1, 2, 3]))
