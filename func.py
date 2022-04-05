@@ -25,3 +25,11 @@ def add(x, y):
 
 result = add(3, 4)
 print(result)
+
+
+def average(numbers):
+	avg = sum(numbers) / len(numbers)
+	return avg 
+
+a = average([1, 2, 3])
+print(a)
