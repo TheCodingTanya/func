@@ -32,3 +32,5 @@ def average(numbers):
 	
 
 print(average([1, 2, 3]))
+print(average([23, 32, 6]))
+print(average([180, 34, 92]))
