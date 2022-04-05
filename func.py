@@ -11,7 +11,7 @@ def wash(dry=False, water=8): # def是define, dry是參數
     if dry:
         print('烘衣')
 
-wash()
+wash(water=10)
 # wash() # 使用function
 
 def say_hi():
