@@ -19,8 +19,7 @@ def say_hi():
 # say_hi()
 
 
-def add(x, y):
+def add(x=1, y=1):
 	print(x + y)
 
-add(3, 4)  # 3投入x, 4投入y
-add(123, 2323) # 123投入x, 2323投入y
+add()
