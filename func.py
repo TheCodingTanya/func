@@ -20,7 +20,8 @@ def say_hi():
 # say_hi()
 
 
-def add(x=1, y=1):
-	print(x + y)
+def add(x, y):
+	return x + y # 回傳result中的3投進x, 4投進y, result =7
 
-add(y=5)
+result = add(3, 4)
+print(result)
